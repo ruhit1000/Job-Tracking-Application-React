@@ -1,8 +1,9 @@
 import React from 'react';
+import { Trash2 } from 'lucide-react';
 
 const DeleteButton = () => {
     return (
-        <button className='btn rounded-full'>D</button>
+        <button className='btn rounded-full'><Trash2></Trash2></button>
     );
 };
 
