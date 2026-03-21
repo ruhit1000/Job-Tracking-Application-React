@@ -1,10 +1,7 @@
-import React, { use } from 'react';
+import React from 'react';
 import JobPostCard from '../JobPostCard.jsx/JobPostCard';
 
-const JobPostCardContainer = ({ jobDataPromise }) => {
-    const jobDataRes = use(jobDataPromise);
-    const jobData = jobDataRes.data;
-
+const JobPostCardContainer = ({ jobData }) => {
     return (
         <div className="py-8 space-y-2">
             {

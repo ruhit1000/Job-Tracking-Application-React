@@ -13,8 +13,8 @@ const JobPostCard = ({ jobInfo }) => {
                 <Badge></Badge>
                 <p className='text-[#323B49] my-3'>{jobInfo.discipline}</p>
                 <div className='flex gap-2'>
-                    <ButtonPrimary theme={'btn-success'} buttonName={'INTERVIEW'}></ButtonPrimary>
-                    <ButtonPrimary theme={'btn-error'} buttonName={'REJECTED'}></ButtonPrimary>
+                    <ButtonPrimary theme={'btn-success'}>INTERVIEW</ButtonPrimary>
+                    <ButtonPrimary theme={'btn-error'}>REJECTED</ButtonPrimary>
                 </div>
             </div>
             <DeleteButton></DeleteButton>
